@@ -6,6 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 function Search() {
   return (
+    <div className="section">
     <div className='Search-nav'>
     <FaFacebookF size={32} className="logo-icon" color="white"/>
     <div>            
@@ -14,7 +15,7 @@ function Search() {
     </div>
     </div>
   </div>
-   
+  </div>
   );
 }
 

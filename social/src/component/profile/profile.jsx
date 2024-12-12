@@ -4,6 +4,7 @@ import logo from '../../assat/logo.png';
 import { CgMenuGridR } from "react-icons/cg";
 import { AiFillMessage } from "react-icons/ai";
 import { IoNotificationsSharp } from "react-icons/io5";
+import Image from '../image/image'
 
 
 function Profile() {
@@ -29,7 +30,7 @@ function Profile() {
       />
       </sapn>
     </div>
-      <img src={logo} className="App-logo" alt="logo" />
+      <Image src={logo} className="App-logo" alt="logo" />
     </div>
   </div>
   );
