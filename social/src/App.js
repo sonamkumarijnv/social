@@ -3,6 +3,8 @@ import './App.css';
 import Search from "./component/search/search";
 import Profile from "./component/profile/profile";
 import Centernav from "./component/centernav/centernav";
+import Main from "./component/main/main";
+
 
 
 function App() {
@@ -17,11 +19,7 @@ function App() {
         </div>
         <Profile />
       </header>
-      <div className="App-header">
-        <div className="section"><div>1</div></div>
-        <div className="section"><div className="section-list">1</div></div>
-        <div className="section"><div>1</div></div>
-      </div>
+      <Main />
     </div>
   );
 }
